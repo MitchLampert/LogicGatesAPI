@@ -1,0 +1,369 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="GraphicElements\And.bmp" />
+    <None Remove="GraphicElements\Antenna.bmp" />
+    <None Remove="GraphicElements\AntennaRec.bmp" />
+    <None Remove="GraphicElements\AntennaSend.bmp" />
+    <None Remove="GraphicElements\ChipI.bmp" />
+    <None Remove="GraphicElements\ChipO.bmp" />
+    <None Remove="GraphicElements\ChipShell.bmp" />
+    <None Remove="GraphicElements\ChipShellIn1.bmp" />
+    <None Remove="GraphicElements\ChipShellIn2.bmp" />
+    <None Remove="GraphicElements\ChipShellIn3.bmp" />
+    <None Remove="GraphicElements\ChipShellIn4.bmp" />
+    <None Remove="GraphicElements\ChipShellIn5.bmp" />
+    <None Remove="GraphicElements\ChipShellIn6.bmp" />
+    <None Remove="GraphicElements\ChipShellIn7.bmp" />
+    <None Remove="GraphicElements\ChipShellIn8.bmp" />
+    <None Remove="GraphicElements\ChipShellOut1.bmp" />
+    <None Remove="GraphicElements\ChipShellOut2.bmp" />
+    <None Remove="GraphicElements\ChipShellOut3.bmp" />
+    <None Remove="GraphicElements\ChipShellOut4.bmp" />
+    <None Remove="GraphicElements\ChipShellOut5.bmp" />
+    <None Remove="GraphicElements\ChipShellOut6.bmp" />
+    <None Remove="GraphicElements\ChipShellOut7.bmp" />
+    <None Remove="GraphicElements\ChipShellOut8.bmp" />
+    <None Remove="GraphicElements\CircSwitch.bmp" />
+    <None Remove="GraphicElements\CircSwitchO.bmp" />
+    <None Remove="GraphicElements\Claw.bmp" />
+    <None Remove="GraphicElements\Claw2.bmp" />
+    <None Remove="GraphicElements\Claw3.bmp" />
+    <None Remove="GraphicElements\Claw4.bmp" />
+    <None Remove="GraphicElements\FlipFlop1.bmp" />
+    <None Remove="GraphicElements\FlipFlop2.bmp" />
+    <None Remove="GraphicElements\HAnd.bmp" />
+    <None Remove="GraphicElements\HButton.bmp" />
+    <None Remove="GraphicElements\HChipI.bmp" />
+    <None Remove="GraphicElements\HChipO.bmp" />
+    <None Remove="GraphicElements\HCircSwitch.bmp" />
+    <None Remove="GraphicElements\HIndLED.bmp" />
+    <None Remove="GraphicElements\HNAnd.bmp" />
+    <None Remove="GraphicElements\HNode.bmp" />
+    <None Remove="GraphicElements\HNode3.bmp" />
+    <None Remove="GraphicElements\HNode4.bmp" />
+    <None Remove="GraphicElements\HNOr.bmp" />
+    <None Remove="GraphicElements\HNot.bmp" />
+    <None Remove="GraphicElements\HOr.bmp" />
+    <None Remove="GraphicElements\HotSpot.bmp" />
+    <None Remove="GraphicElements\HRando.bmp" />
+    <None Remove="GraphicElements\HSensorDir1StemD.bmp" />
+    <None Remove="GraphicElements\HSensorDir1StemL.bmp" />
+    <None Remove="GraphicElements\HSensorDir1StemR.bmp" />
+    <None Remove="GraphicElements\HSensorDir1StemU.bmp" />
+    <None Remove="GraphicElements\HSensorTouchStem.bmp" />
+    <None Remove="GraphicElements\HSwitch.bmp" />
+    <None Remove="GraphicElements\HXNor.bmp" />
+    <None Remove="GraphicElements\HXor.bmp" />
+    <None Remove="GraphicElements\IndLED.bmp" />
+    <None Remove="GraphicElements\NAnd.bmp" />
+    <None Remove="GraphicElements\NLCircle.bmp" />
+    <None Remove="GraphicElements\NLHexagon.bmp" />
+    <None Remove="GraphicElements\NLOctagon.bmp" />
+    <None Remove="GraphicElements\NLOval.bmp" />
+    <None Remove="GraphicElements\NLRectangle.bmp" />
+    <None Remove="GraphicElements\NLSquare.bmp" />
+    <None Remove="GraphicElements\NLTrapezoid.bmp" />
+    <None Remove="GraphicElements\NLTriangle.bmp" />
+    <None Remove="GraphicElements\Node.bmp" />
+    <None Remove="GraphicElements\Node3.bmp" />
+    <None Remove="GraphicElements\Node4.bmp" />
+    <None Remove="GraphicElements\NOr.bmp" />
+    <None Remove="GraphicElements\Not.bmp" />
+    <None Remove="GraphicElements\Or.bmp" />
+    <None Remove="GraphicElements\ORando.bmp" />
+    <None Remove="GraphicElements\PushButton.bmp" />
+    <None Remove="GraphicElements\SenseCircle.bmp" />
+    <None Remove="GraphicElements\SenseColor.bmp" />
+    <None Remove="GraphicElements\SenseHexagon.bmp" />
+    <None Remove="GraphicElements\SenseOctagon.bmp" />
+    <None Remove="GraphicElements\SenseOval.bmp" />
+    <None Remove="GraphicElements\SenseRectangle.bmp" />
+    <None Remove="GraphicElements\SenseSquare.bmp" />
+    <None Remove="GraphicElements\SenseTrapezoid.bmp" />
+    <None Remove="GraphicElements\SenseTriangle.bmp" />
+    <None Remove="GraphicElements\SensorDir1Stem.bmp" />
+    <None Remove="GraphicElements\SensorTouchStem.bmp" />
+    <None Remove="GraphicElements\Switch.bmp" />
+    <None Remove="GraphicElements\XNor.bmp" />
+    <None Remove="GraphicElements\Xor.bmp" />
+    <None Remove="TestAPIComponents.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="GraphicElements\And.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Antenna.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\AntennaRec.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\AntennaSend.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipI.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipO.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShell.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellIn1.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellIn2.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellIn3.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellIn4.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellIn5.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellIn6.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellIn7.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellIn8.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellOut1.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellOut2.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellOut3.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellOut4.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellOut5.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellOut6.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellOut7.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ChipShellOut8.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\CircSwitch.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\CircSwitchO.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Claw.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Claw2.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Claw3.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Claw4.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\FlipFlop1.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\FlipFlop2.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HAnd.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HButton.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HChipI.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HChipO.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HCircSwitch.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HIndLED.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HNAnd.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HNode.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HNode3.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HNode4.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HNOr.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HNot.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HOr.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HotSpot.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HRando.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HSensorDir1StemD.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HSensorDir1StemL.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HSensorDir1StemR.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HSensorDir1StemU.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HSensorTouchStem.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HSwitch.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HXNor.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\HXor.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\IndLED.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\NAnd.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\NLCircle.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\NLHexagon.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\NLOctagon.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\NLOval.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\NLRectangle.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\NLSquare.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\NLTrapezoid.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\NLTriangle.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Node.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Node3.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Node4.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\NOr.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Not.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Or.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\ORando.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\PushButton.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SenseCircle.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SenseColor.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SenseHexagon.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SenseOctagon.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SenseOval.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SenseRectangle.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SenseSquare.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SenseTrapezoid.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SenseTriangle.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SensorDir1Stem.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\SensorTouchStem.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Switch.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\XNor.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GraphicElements\Xor.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestAPIComponents.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MSLLogicGatesAPILib\MSLLogicGatesAPILib.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MSLLogicGatesSampleClient/MSLLogicGatesSampleClient.csproj" Id="2ca80362-4b9f-40fd-b8f5-bc182432f001" />
+  <Project Path="MSLLogicGatesAPILib/MSLLogicGatesAPILib.csproj" />
+</Solution>
