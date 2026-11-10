@@ -16,11 +16,11 @@ This a subset of the code behind a "Boolean Logic Puzzle Maker" currently in dev
 
 
 
-The Solution folder contains two projects. One is the **MSLLogicGatesAPILib**, which will be the focus of this document. The other is a **MSLLogicGatesSampleClient**, which offers a basic example for how to render the objects in the API onto a screen.
+The Solution folder contains two projects. One is the **MSLLogicGatesAPILib**, which is the actual API library. The other is a **MSLLogicGatesSampleClient**, which offers a basic example for how to render the objects in the API onto a screen.
 
 
 
-**Make sure the MSLLogicGatesSample*Client* is set as the Startup Project for the solution, when you run it!**
+\** **Make sure the MSLLogicGatesSample*Client* is set as the Startup Project for the solution, when you run it!** \**
 
 
 
