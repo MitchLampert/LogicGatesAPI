@@ -20,13 +20,15 @@ The Solution folder contains two projects. One is the **MSLLogicGatesAPILib**, w
 
 
 
-\** **Make sure the MSLLogicGatesSample*Client* is set as the Startup Project for the solution, when you run it!** \**
+\*\* **Make sure the MSLLogicGatesSample*Client* is set as the Startup Project for the solution, when you run it!** \*\*
 
 
 
 Read the main document, **Mitchells Logic Gates API Manual.docx**, for details.
 
 
+
+NONE of this code was generated with any A.I. Much of it actually dates back to 2007, when I first attempted to put the Boolean Puzzle Maker together.
 
 
 
